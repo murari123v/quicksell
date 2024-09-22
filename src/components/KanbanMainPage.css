@@ -1,0 +1,26 @@
+.kanban-board {
+    padding: 20px;
+    overflow-x: auto; 
+    background-color: #f4f4f9;
+    height: 100vh;
+}
+
+.kanban-columns {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 20px; 
+    /* background-color: #f4f4f9; */
+}
+.user-avatar {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+.kanban-column {
+    flex: 0 0 300px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
